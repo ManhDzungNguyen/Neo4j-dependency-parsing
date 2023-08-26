@@ -5,7 +5,7 @@ from py2neo import Graph
 
 
 class NeoAdapter(object):
-    def __init__(self, host="localhost", port="7688", password="123!@#"):
+    def __init__(self, host="localhost", port="7687", password="12345678"):
         """
         Initialize a NeoAdapter instance.
 
